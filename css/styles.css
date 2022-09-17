@@ -50,7 +50,7 @@
  /*carrusel*/
  h2{
      text-align: center;
-     font-size: 5rem;
+     font-size: 4rem;
      font-family: arial;
      margin-top: 0rem;
      color: aqua;
@@ -133,8 +133,13 @@
  main.dashboard{
      margin-top: 0rem;
  }
- 
- 
+ /* boton de modificar estudios en programacion, no me toma el cambio
+ .btn.btn-ligth{
+    position: 0;
+    color: rgb(39, 39, 136);
+    background-repeat: no-repeat;
+    margin-left: -2rem;
+ }*/
  
  
  
