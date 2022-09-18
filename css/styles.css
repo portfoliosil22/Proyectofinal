@@ -8,10 +8,20 @@
     --bs-list-group-border-color: none;
  }
  /*solo el logo del gato que al pasar(hover), cambie de color el fondito del gato)*/
- .fa-brands.fa-github.fa-2x.text-white:hover{
+ .fa-brands.fa-github.fa-2xl.text-white:hover{
  --bs-text-spacity:1;
  color: violet !important;
  }
+/* se colorea de azul y al pasar el cursor cambia de color, si aprieto se abre el login*/
+ .fa-solid.fa-user-lock.fa-2xl.text-white:hover{
+--bs-text-spacify:1;
+color: rgb(34, 34, 139)!important;
+ }
+
+
+
+
+
  section.banner{
      background-image: linear-gradient(
      rgba(0,0,0,0.3),
@@ -141,5 +151,13 @@
     margin-left: -2rem;
  }*/
  
+ /*cambie de color el login user solamente para el dashboard, porque no se veía*/
+ .fa-solid.fa-user.fa-2xl{
+    color: rgba(236, 230, 230, 0.251);
+ }
  
+ header, body, main{
+    background-color: grey;
+ }
+
  
