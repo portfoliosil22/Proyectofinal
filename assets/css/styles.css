@@ -26,7 +26,7 @@ color: rgb(34, 34, 139)!important;
      background-image: linear-gradient(
      rgba(0,0,0,0.3),
      rgba(0,0,0,0.6)
-     ), url(../css/img/psicoimagen.jpg);
+     ), url(../img/psicoimagen.jpg);
      width: 100%;
      height: 80vh;
      background-repeat: no-repeat;
@@ -63,8 +63,7 @@ color: rgb(34, 34, 139)!important;
      font-size: 4rem;
      font-family: arial;
      margin-top: 0rem;
-     color: aqua;
-     
+     color: aqua; 
  }
  /*carrusel*/
  .content-all{
@@ -158,6 +157,23 @@ color: rgb(34, 34, 139)!important;
  
  header, body, main{
     background-color: grey;
+ }
+/*
+.login.footer.bg-black{
+    padding: 1rem;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0em;
+}
+ */
+
+ .login{
+    
+    height: 90vh
+ }
+ 
+ .formulario-login{
+margin-top: 15%;
  }
 
  

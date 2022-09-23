@@ -8,24 +8,26 @@
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <script src="https://kit.fontawesome.com/f1e436c6c0.js" crossorigin="anonymous"></script>
-<link rel="stylesheet"  href="/css/styles.css">
+<link rel="stylesheet"  href="/assets/css/styles.css">
 </head>
 
 <body>
-  <header class="header">
+  <header>
 <!--aca arranca el navbar, esta fijo con fixed top y el modal de sesión esta afuera sino no arranca-->
   <nav class="navbar navbar-expand-lg bg-black fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="css/img/APLogo-20-20.png" alt="Logo Argentina Programa" width="20%" height="">
+        <img src="./assets/img/APLogo-20-20.png" alt="Logo Argentina Programa" width="20%" height="">
       </a>
+
 <!--listado desordenado para agregar en grupo todo lo que es para logos, iniciar sesión, en horizontal,
 text white lo traje de Bootstrap y los fa de fontawesome, github con target me abre pagina nueva de la pagina misma-->
 <ul class= "list-group list-group-horizontal">
   <li class="list-group-item"><a href="https://github.com/portfoliosil22" target="_blank"><i class="fa-brands fa-github fa-2xl text-white"></i></a></li>
   <li class="list-group-item">
+    
     <!-- Button envía al login-->
-    <a href="../css/styles.css/login.html"><i class="fa-solid fa-user-lock fa-2xl text-white"></i></a>
+    <a href="/login.html" target="_blank"><i class="fa-solid fa-user-lock fa-2xl text-white"></i></a>
   </li>
 </ul>
 </div>
@@ -42,7 +44,7 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 <div class="conteiner">
   <div class="row">
     <div class="col-3">
-      <img src="css/img/perfil.jpg" alt="fotoperfil" class="rounded-circle img-fluid perfil">
+      <img src="assets/img/perfil.jpg" alt="fotoperfil" class="rounded-circle img-fluid perfil">
       <button type="submit" class="btn btn-light"><i class= "fa-solid fa-pen"></i></button><br>
      <button type="submit" class="btn btn-light"><i class= "fa-solid fa-xmark"></i></button><br>
       </div>
@@ -78,24 +80,26 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 </div>
 <br>
 </section>
+</header>
 
-<section>
+<main class="main"></main>
+<section class="carrusel">
     <div class="row">
       <div class="col-12">
         <br>
   <h2>Títulos y Certificados</h2>
   <div class="content-all">
       <div class="content-carrousel">
-          <figure><img src="css/img/img1.jpg"></figure>
-          <figure><img src="css/img/img2.jpg"></figure>
-          <figure><img src="css/img/img3.jpg"></figure>
-          <figure><img src="css/img/img4.jpg"></figure>
-          <figure><img src="css/img/img5.jpg"></figure>
-          <figure><img src="css/img/img6.jpg"></figure>
-          <figure><img src="css/img/img7.jpg"></figure>
-          <figure><img src="css/img/img8.jpg"></figure>
-          <figure><img src="css/img/img9.jpg"></figure>
-          <figure><img src="css/img/img10.jpg"></figure>
+          <figure><img src="assets/img/img1.jpg"></figure>
+          <figure><img src="assets/img/img2.jpg"></figure>
+          <figure><img src="assets/img/img3.jpg"></figure>
+          <figure><img src="assets/img/img4.jpg"></figure>
+          <figure><img src="assets/img/img5.jpg"></figure>
+          <figure><img src="assets/img/img6.jpg"></figure>
+          <figure><img src="assets/img/img7.jpg"></figure>
+          <figure><img src="assets/img/img8.jpg"></figure>
+          <figure><img src="assets/img/img9.jpg"></figure>
+          <figure><img src="assets/img/img10.jpg"></figure>
       </div>
 
   </div><br><br><br><br><br><br><br><br><br><br><br>
@@ -112,26 +116,20 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 </div>
 </div>
 </section>
-<br>
-<br>
-</header>
 
-<main class="main">
-
-
-<section class="conteiner">
+<section class="conteiner presentacion1">
 <h2>Estudios de Programación </h2>
 <br>
-</section>
+
 
 <!--presentacion, foto y presentacion-->
-<section class="presentacion1">
+
   
 
   <div class="conteiner text-center">
     <div class="row">
       <div class="col-3">
-        <img src="css/img/imagenarg2.png" alt="fotoargentinap" class="text-white text-center intro">
+        <img src="assets/img/imagenarg2.png" alt="fotoargentinap" class="text-white text-center intro">
       </div>
   
       <div class="col-7">
@@ -153,17 +151,16 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 </section>
 
 
-<section class="conteiner">
+<section class="conteiner presentacion2">
 <h2>Estudios Universitarios</h2>
-</section>
+
 
 <!--presentacion, foto y presentacion-->
-<section class="presentacion2">
   
   <div class="conteiner text-center">
     <div class="row">
       <div class="col-3">
-        <img src="css/img/imagenUBA.png" alt="fotoperUBA" class="rounded-circle img-fluid" width="70%">
+        <img src="assets/img/imagenUBA.png" alt="fotoperUBA" class="rounded-circle img-fluid" width="70%">
       </div>
   
       <div class="col-7 mt-4">
@@ -185,15 +182,15 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
   <br>
 </section>
 
-<section class="conteiner">
+<section class="conteiner presentacion3">
 <h2>Curso de Informatica</h2>
-</section>
+
 <!--presentacion, foto y presentacion-->
-<section class="presentacion3">
+
   <div class="conteiner text-center">
     <div class="row">
       <div class="col-3">
-        <img src="css/img/img6.jpg" alt="fotocpi" class="img-fluid perfil" width="70%">
+        <img src="assets/img/img6.jpg" alt="fotocpi" class="img-fluid perfil" width="70%">
       </div>
       <div class="col-7">
         <h4> <br>
@@ -213,18 +210,13 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 </section>
 
 
-<section class="conteiner text-center">
+<section class="conteiner text-center presentacion4">
 <h2>Cursos Postgrado</h2>
-</section>
-
-<!--presentacion, foto y presentacion-->
-<section class="presentacion4">
-  
 
   <div class="conteiner text-center">
     <div class="row">
       <div class="col-3">
-        <img src="css/img/img5.jpg" alt="" class="marketing" width="70%" height="...">
+        <img src="assets/img/img5.jpg" alt="" class="marketing" width="70%" height="...">
       </div>
   
       <div class="col-7">
@@ -246,18 +238,13 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
   <br>
 </section>
 
-    <section class="conteiner text-center">
+    <section class="conteiner text-center presentacion5">
     <h2>Otras Certificaciones</h2>
-    </section>
-    
-    <!--presentacion, foto y presentacion-->
-    <section class="presentacion5">
-      
     
       <div class="conteiner text-center">
         <div class="row">
           <div class="col-3">
-            <img src="css/img/img8.jpg" alt="" class="" width="60%">
+            <img src="assets/img/img8.jpg" alt="" class="" width="60%">
           </div>
       
           <div class="col-7">
@@ -277,18 +264,15 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
       <br>
       <br>
     </section>
-</section>
 
-<section class="conteiner text-center">
+
+<section class="conteiner text-center presentacion6">
 <h2>Título de Profesora de Piano</h2>
-</section>
-<!--presentacion, foto y presentacion-->
-<section class="presentacion6">
-  
+
 <div class="conteiner text-center">
     <div class="row">
       <div class="col-3">
-        <img src="css/img/img4.jpg" alt="..." class="piano"width="70%" height="..." >
+        <img src="assets/img/img4.jpg" alt="..." class="piano"width="70%" height="..." >
       </div>
   
       <div class="col-7">
@@ -312,16 +296,9 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
   <br>
   </section>
 
-
-
-</section>
-<section class="conteiner text-center">
+<section class="conteiner text-center presentacion7">
 <h2>Experiencia laboral - <br>
   actividades realizadas</h2>
-</section>
-<!--presentacion, foto y presentacion-->
-<section class="presentacion7">
-
 <div class="conteiner">
   <div class="row">
     <div class="col-1">
@@ -377,32 +354,8 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--progreso-->
-<section id="Habilidades y Recursos"  class="comteiner text center">
+<section id="Habilidades y Recursos"  class="comteiner text center skills">
   <h2><i>Hard & Solf Skills</i></h2>
   <div class="progress">
     <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="70">70% GITHUB</div>
@@ -454,22 +407,6 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- acá arranca el Modal del LOGIN,LOABRE CON DATA TOGLE ..., EL MODAL QUEDA fuera del navbar -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -500,8 +437,8 @@ text white lo traje de Bootstrap y los fa de fontawesome, github con target me a
 </div>
 </main>
 
-<footer class="bg-black text-white text-left fs-6">
-  <div class=" pt-3">
+<footer class="bg-black text-white text-left fs-6 footer">
+  <div class=" pt-4">
     <p>&copy copyright Silvina Kohn - 2022 - Derechos Reservados</p>
   </div>
 </footer>
